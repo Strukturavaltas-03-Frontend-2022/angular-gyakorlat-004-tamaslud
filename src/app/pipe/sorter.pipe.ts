@@ -44,8 +44,5 @@ export class SorterPipe implements PipeTransform {
         return String(a[key]).toLocaleLowerCase().localeCompare(String(b[key]).toLocaleLowerCase())
       };
     });
-
-
   }
-
 }
